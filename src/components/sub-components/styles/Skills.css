@@ -1,0 +1,195 @@
+.skills{
+    position: relative;
+    width: 100%;
+    padding-bottom: 720px;
+    overflow: hidden;
+    background: #2d2e32;
+}
+.skill-cards-box{
+    display: inline-block;
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 5%;
+    background: #2d2e32;
+}
+.skill-cards{
+    position: absolute;
+    width: 200px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: #25262a;
+    color: white;
+    border-radius: 10%;
+}
+.skill-cards:hover{
+    background: linear-gradient(#33aae6 ,#253b48);  
+    box-shadow: 3px 3px 15px #33aae6;
+}
+.skill-cards:hover .card-icon{
+    color: white;
+    border: 2px solid #5d5f68;
+    background: linear-gradient(#253b48,#33aae6 );  
+}
+.card-top-left{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.card-top-right{
+    margin-top: 40px;
+    margin-left: 300px;
+}
+.card-bottom-left{
+    margin-top: 340px;
+    margin-left: 0px;
+}
+.card-bottom-right{
+    margin-top: 380px;
+    margin-left: 300px;
+}
+.card-icon{
+    width: 70px;
+    height: 70px;
+    margin-left: 70px;
+    color: #33aae6;
+    background: #2d2e32;
+    font-size: 50px;
+    border: 2px solid #33aae6;
+    border-radius: 50%;
+}
+.card-heading{
+    font-size: 20px;
+}
+.card-discription{
+    font-size: 18px;
+}
+.skill-article{
+    position: absolute;
+    display: inline-block;
+    width: 35%;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+.skill-title{
+    position: relative;
+    margin-bottom: -10px;
+    color: #33aae6;
+}
+.skill-heading{
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-size: 20px;
+    color: white;
+}
+.skill-paragraph{
+    position: relative;
+    font-size: 20px;
+    color: white;
+}
+.skill-downloadcv{
+    position:relative;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-right: 50px;
+    background: linear-gradient(90deg,#1afecd , #379097);
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.skill-downloadcv:hover{
+    background: linear-gradient(90deg, #379097 , #1afecd);
+}
+
+@media screen and (max-width: 1050px)
+{
+
+    .skills{
+        padding-bottom: 0px;
+    }
+    .skill-cards-box{
+        position: relative;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .card-top-left{
+        margin-left: 10%;
+    }
+    .card-top-right{
+        margin-left: 60%;
+    }
+    .card-bottom-left{
+        margin-left: 10%;
+    }
+    .card-bottom-right{
+        margin-left: 60%;
+    }
+    .skill-article{
+        position: relative;
+        width: 80%;
+        margin-top: 700px;
+        margin-left: 10%;
+    }
+
+}
+
+@media screen and (max-width: 800px)
+{
+
+    .card-top-left{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .card-top-right{
+        width: 40%;
+        margin-left: 55%;
+    }
+    .card-bottom-left{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .card-bottom-right{
+        width: 40%;
+        margin-left: 55%;
+    }
+
+}
+
+@media screen and (max-width: 600px)
+{
+
+    .skills{
+        padding-bottom: 100px;
+    }
+    .card-top-left{
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 0px;
+    }
+    .card-top-right{
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 350px;
+    }
+    .card-bottom-left{
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 700px;
+    }
+    .card-bottom-right{
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 1050px;
+    }
+    .skill-article{
+        margin-top: 1400px;
+    }
+    .card-icon{
+        margin-left: 40%;  
+    }
+
+}

@@ -1,0 +1,80 @@
+.concluding{
+    width: 100%;
+    background: #2d2e32;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.concluding-article-box{
+    position: relative;
+    background: #25262a;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.concluding-circle-top-left{
+    position: absolute;
+    left: -8%;
+    top: -20%;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: linear-gradient(180deg,#33aae6, #26536a);
+}
+.concluding-article{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.concluding-heading{
+    color: white;
+    font-size: 25px;
+}
+.concluding-paragraph{
+    color: white;
+    font-size: 18px;
+}
+.concluding-contactbox{
+    position:relative;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: linear-gradient(90deg,#1afecd , #379097);
+    border-radius: 20px;
+    transition: 0.2s;
+    z-index: 2;
+}
+.concluding-contactbox:hover{
+    background: linear-gradient(90deg, #379097 , #1afecd);
+}
+.concluding-circle-bottom-right-external{
+    position: absolute;
+    right: -8%;
+    bottom: -20%;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: linear-gradient(230deg,#33aae6, #315567);
+}
+.concluding-circle-bottom-right-internal{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    margin-top: 15%;
+    margin-left: 15%;
+    border-radius: 50%;
+    background: #25262a;
+}

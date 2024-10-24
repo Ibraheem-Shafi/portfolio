@@ -1,0 +1,165 @@
+.portfolio2{
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: #2d2e32;
+    overflow: hidden;
+}
+.portfolio2-article{
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 0px;
+}
+.project2{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #33aae6;
+}
+.heading{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+.paragraph{
+    position: relative;
+    font-size: 20px;
+    color: white;
+}
+.readmore-link{
+    color: #20deec;
+}
+.readmore-link a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #20deec;
+    transition: 0.5s;
+}
+.readmore-link:hover a{
+    margin-left: 40px;
+}
+.portfolio2-sample{
+    position: absolute;
+    display: inline-block;
+    width: 600px;
+    height: 500px;
+    left: 3%;
+    z-index: 2;
+}
+
+.web2-image img{
+    width: 100%;
+}
+.web2-image{
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.web2-extra{
+    position: absolute;
+    margin-top: 0px;
+    left: 3%;
+    width: 600px;
+    height: 500px;
+    background: rgb(170, 165, 165);
+    opacity: 0.3;
+    border-radius: 10%;
+    transform: rotate(10deg);
+    z-index: 1;
+}
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 1200px)
+{
+    
+    .portfolio2-article{
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width: 1050px)
+{
+    
+    .portfolio2-article{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 500px;
+    }
+    .portfolio2-sample{
+        float: none;
+        margin-top: -80px;
+        width: 80%;
+        left: 10%;
+    }
+    .portfolio2-sample img{
+        width: 100%;
+    }
+    .web2-extra{
+        position: absolute;
+        margin-top: -80px;
+        left: 10%;
+        width: 80%;
+    }
+    
+
+}
+
+@media screen and (max-width: 700px)
+{
+    
+    .portfolio2-article{
+        margin-top: 100px;
+    }
+    .portfolio2-sample{
+        height: 300px;
+        width: 80%;
+    }
+    .portfolio2-sample img{
+        height: 100%;
+        width: 100%;
+    }
+    .web2-extra{
+        height: 300px;
+    }
+    
+
+}
+
+@media screen and (max-width: 500px)
+{
+    
+    .portfolio2-article{
+        margin-top: 300px;
+        padding-top: -100px;
+    }
+    .portfolio2-article .project2{
+        margin-top: 0px;
+    }
+    .portfolio2-sample{
+        height: 250px;
+        width: 80%;
+        overflow: auto;
+        scroll-behavior: smooth;
+    }
+    .web2-image{
+        width: 100%;
+        overflow: hidden;
+    }
+    .web2-image img{
+        height: 100%;
+        width: 100%;
+    }
+    .web2-extra{
+        height: 250px;
+    }
+    
+
+}

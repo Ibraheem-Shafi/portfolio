@@ -1,0 +1,403 @@
+.introduction{
+    width: 100%;
+    padding-bottom: 150px;
+    background: #25262a;
+    overflow: hidden;
+}
+.introducing-article{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 100px;
+}
+.introducing{
+    position: relative;
+    width: 100px;
+    height: 0.1px;
+    margin-top: -50px;
+    margin-bottom: 0px;
+    color: #33aae6;
+}
+.heading{
+    position: relative;
+    margin-top: -40px;
+    margin-bottom: -30px;
+    font-size: 40px;
+    color: white;
+}
+.paragraph{
+    position: relative;
+    font-size: 20px;
+    color: white;
+}
+.introduction-contactbox{
+    position:relative;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-right: 50px;
+    background: linear-gradient(90deg,#1afecd , #379097);
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.introduction-contactbox:hover{
+    background: linear-gradient(90deg, #379097 , #1afecd);
+}
+.photo-box{
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    margin-right: 5%;
+}
+.hexagon {
+    width: 500px;
+    height: 300px;
+    background-color: #3498db;
+    position: absolute;
+    margin: 150px 50px;
+    border-radius: 10px;
+  }
+
+  .hexagon:before, .hexagon:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+  }
+
+  .hexagon:before {
+    top: -96.5px;
+    border-bottom: 100px solid #3498db;
+    border-radius: 10px;
+  }
+
+  .hexagon:after {
+    bottom: -97px;
+    border-top: 100px solid #3498db;
+    border-radius: 10px;
+  }
+  .hexagon2 {
+    width: 333px;
+    height: 200px;
+    background-color: #1e2224;
+    position: absolute;
+    margin: 50px 80px;
+    border-radius: 10px;
+  }
+
+  .hexagon2:before, .hexagon2:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    border-left: 166px solid transparent;
+    border-right: 166px solid transparent;
+    z-index: 2;
+  }
+
+  .hexagon2:before {
+    top: -63px;
+    border-bottom: 66px solid #1e2224;
+    border-radius: 10px;
+  }
+
+  .hexagon2:after {
+    bottom: -63px;
+    border-top: 66px solid #1e2224;
+    border-radius: 10px;
+  }
+.photo-ring{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-bottom: -10%;
+    margin-left: 20%;
+}
+.photo-ring-internal{
+    position: relative;
+    width: 70%;
+    height: 70%;
+    top: 15%;
+    margin-left: 15%;
+    background: #25262a;
+    border-radius: 50%;
+}
+.photo{
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 40px;
+    height: 400px;
+    width: 100%;
+    z-index: 3;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+}
+.photo-small-rings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    color: #33aae6;
+    background: #2d2e32;
+    border-radius: 50%;
+    border:  4px solid #1a6083;
+    box-shadow: 0 0 0 1px #31a0d7 , 0 0 5px 0 #31a0d7,
+     inset 0 0 0 1px #31a0d7, inset 0 0 5px 0 #31a0d7;
+}
+.top-left{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 30px;
+    z-index: 2;
+}
+.top-right{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 10px;
+    z-index: 2;
+}
+.bottom-left{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 200px;
+    z-index: 2;
+}
+.bottom-right{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 200px;
+    z-index: 2;
+}
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 800px){
+
+    .introduction{
+        padding-bottom: 50px;
+    }
+    .introducing-article{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 100px;
+    }
+    .photo-box{
+        position: relative;
+        display: inline-block;
+        width: 40%;
+        height: 100%;
+        margin-right: 5%;
+    }
+    .hexagon {
+        width: 500px;
+        height: 300px;
+        background-color: #3498db;
+        position: absolute;
+        margin: 150px 50px;
+        border-radius: 10px;
+      }
+    
+      .hexagon:before, .hexagon:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        border-left: 250px solid transparent;
+        border-right: 250px solid transparent;
+      }
+    
+      .hexagon:before {
+        top: -96.5px;
+        border-bottom: 100px solid #3498db;
+        border-radius: 10px;
+      }
+    
+      .hexagon:after {
+        bottom: -97px;
+        border-top: 100px solid #3498db;
+        border-radius: 10px;
+      }
+      .hexagon2 {
+        width: 333px;
+        height: 200px;
+        background-color: #1e2224;
+        position: absolute;
+        margin: 50px 80px;
+        border-radius: 10px;
+      }
+    
+      .hexagon2:before, .hexagon2:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        border-left: 166px solid transparent;
+        border-right: 166px solid transparent;
+        z-index: 2;
+      }
+    
+      .hexagon2:before {
+        top: -63px;
+        border-bottom: 66px solid #1e2224;
+        border-radius: 10px;
+      }
+    
+      .hexagon2:after {
+        bottom: -63px;
+        border-top: 66px solid #1e2224;
+        border-radius: 10px;
+      }    
+    .photo-small-rings{
+        font-size: 30px;
+        padding: 20px;
+    }
+    .top-right{
+        margin-left: 300px;
+        margin-top: 10px;
+    }
+    .bottom-right{
+        margin-left: 350px;
+        margin-top: 200px;
+    }
+
+}
+@media screen and (max-width: 500px){
+
+    .introduction{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .introducing-article{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 100px;
+    }
+    .photo-box{
+        float: left;
+        width: 80%;
+        height: 100%;
+        left: 10%;
+    }
+    .photo{
+        float: left;
+        margin-top: 80px;
+        left: 0px;
+        height: 300px;
+        width: 100%;
+        z-index: 3;
+    }
+    .photo img{
+        height: 100%;
+        width: 100%;
+    }
+    .photo-ring{
+        position: relative;
+        width: 100%;
+        height: 500px;
+        margin-bottom: -10%;
+        margin-left: 0%;
+    }
+    .photo-ring-internal{
+        position: relative;
+        width: 80%;
+        height: 70%;
+        top: 15%;
+        margin-left: -2.5%;
+        border-radius: 50%;
+    }
+    .hexagon {
+        width: 342px;
+        height: 200px;
+        background-color: #3498db;
+        position: absolute;
+        margin: 120px 0px;
+        border-radius: 10px;
+      }
+    
+      .hexagon:before, .hexagon:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        border-left: 170px solid transparent;
+        border-right: 170px solid transparent;
+      }
+    
+      .hexagon:before {
+        top: -96.5px;
+        border-bottom: 100px solid #3498db;
+        border-radius: 10px;
+      }
+    
+      .hexagon:after {
+        bottom: -97px;
+        border-top: 100px solid #3498db;
+        border-radius: 10px;
+      }
+      .hexagon2 {
+        width: 275px;
+        height: 160px;
+        background-color: #1e2224;
+        position: absolute;
+        margin: 7% 10%;
+        border-radius: 10px;
+      }
+    
+      .hexagon2:before, .hexagon2:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        border-left: 137px solid transparent;
+        border-right: 137px solid transparent;
+        z-index: 2;
+      }
+    
+      .hexagon2:before {
+        top: -63px;
+        border-bottom: 66px solid #1e2224;
+        border-radius: 10px;
+      }
+    
+      .hexagon2:after {
+        bottom: -63px;
+        border-top: 66px solid #1e2224;
+        border-radius: 10px;
+      }
+    .photo-small-rings{
+        width: 50px;
+        height: 50px;
+        font-size: 15px;
+        padding: 10px;
+        z-index: 4;
+    }
+    .top-left{
+        margin-left: 15px;
+        margin-top: 80px;
+    }
+    .top-right{
+        margin-left: 280px;
+        margin-top: 50px;
+    }
+    .bottom-left{
+        margin-left: 0px;
+        margin-top: 350px;
+    }
+    .bottom-right{
+        width: 70px;
+        height: 70px;
+        margin-left: 240px;
+        margin-top: 350px;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .photo-box{
+        left: 5%;
+    }
+}
